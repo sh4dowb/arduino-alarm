@@ -192,6 +192,7 @@ void listenKeys(){
         return;
       } else {
         display.println("CORRECT");
+        digitalWrite(buzzerPin, LOW);
         //digitalWrite(greenPin, HIGH);
         display.display();
         delay(1000);
